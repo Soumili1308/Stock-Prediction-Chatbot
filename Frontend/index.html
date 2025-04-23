@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>StockBot Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <h2>💹 Stock Prediction ChatBot</h2>
+    <div class="chat-box" id="chatBox"></div>
+    <div class="input-area">
+      <input id="userInput" type="text" placeholder="Ask about AAPL, GOOGL..." />
+      <button onclick="handleMessage()">Send</button>
+    </div>
+    <canvas id="graph"></canvas>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
